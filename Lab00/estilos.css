@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(97, 36, 54);
+    background-color: rgb(78, 19, 37);
 }
 h1{
     color: rgb(255, 255, 255);
@@ -9,5 +9,8 @@ h2{
     color: rgb(255, 255, 255);
 }
 p{
+    color: rgb(255, 255, 255);
+}
+section{
     color: rgb(255, 255, 255);
 }
