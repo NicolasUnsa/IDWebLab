@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  color: #2b2b2b;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+}
+
+.barra-navegacion {
+  background-color: #5f1a1a;
+}
+
+.boton-principal {
+  background-color: #6d1f2b; /* vino */
+  border: none;
+  color: #fff;
+}
+
+.boton-principal:hover {
+  background-color: #56171f;
+}
+
+.btn-registro {
+  background-color: #6d1f2b;
+  border: none;
+  color: #fff;
+}
+
+.seccion-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  background-color: #eef4f4;
+}
+
+.texto-principal {
+  flex: 1;
+  text-align: center;
+}
+
+.texto-principal h1 {
+  font-size: 1.6rem;
+  color: #781f1f;
+}
+
+.imagen-principal {
+  flex: 1;
+}
+
+.imagen-principal img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .seccion-principal {
+    flex-direction: row;
+    text-align: left;
+    padding: 3.5rem 3rem;
+  }
+  .texto-principal {
+    text-align: left;
+  }
+  .texto-principal h1 {
+    font-size: 2.2rem;
+  }
+}
+.seccion-cursos {
+  padding: 2.5rem 1.5rem;
+}
+
+.seccion-cursos h2 {
+  text-align: center;
+  color: #6d1f2b;
+  margin-bottom: 1.5rem;
+}
+
+.cuadricula-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+}
+
+.tarjeta-curso {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1.2rem;
+}
+
+.tarjeta-curso h3 {
+  font-size: 1rem;
+  color: #781f1f;
+  margin-top: 0;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .cuadricula-cursos { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 992px) {
+  .cuadricula-cursos { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1200px) {
+  .cuadricula-cursos { grid-template-columns: repeat(4, 1fr); }
+}
+
+.seccion-noticias {
+  background-color: #f7f7f7;
+}
+
+.seccion-noticias h2 {
+  text-align: center;
+  color: #6d1f2b;
+  margin-bottom: 1.5rem;
+}
+
+.tarjeta-noticia {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
