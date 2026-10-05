@@ -1,0 +1,14 @@
+{
+  "name": "lab05-nodejs-http",
+  "version": "1.0.0",
+  "description": "Servidor Backend Estatico y API Basica de Consultas con Node.js Nativo",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
