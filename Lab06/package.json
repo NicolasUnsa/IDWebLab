@@ -1,0 +1,12 @@
+{
+  "name": "lab06-api-cursos",
+  "version": "1.0.0",
+  "description": "Laboratorio 06 - API RESTful para la Gestión de Cursos Académicos con Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
